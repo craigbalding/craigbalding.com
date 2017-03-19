@@ -1,0 +1,94 @@
+
+/* Gradient transparent - color - transparent */
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+
+body {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 1.4em;
+}
+
+/* font-family: "Droid Serif",Georgia,"Times New Roman",serif; */
+
+
+/* Headings
+ * --------------------------------------------------------------------- */
+h1,h2,h3,h4,h5,h6 { color: #111; }
+
+h1 {
+  margin-top: 20px;
+  font-size: 2.8em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.3em;
+  }
+
+h3 {
+  font-size: 1.4em;
+  font-weight: bold;
+  }
+
+/* Text Elements
+ * --------------------------------------------------------------------- */
+a                 { color: #125AA7; }
+a:hover           { color: #000; }
+blockquote        { color: #666; }
+
+pre {
+  background: #eee;
+  border:     1px solid #ddd;
+}
+
+p + p { 
+  margin-top: -0.5em; 
+  text-indent: 0em;
+}
+
+/* Tables
+ * --------------------------------------------------------------------- */
+table {
+  border-top:     1px solid #ddd;
+  border-left:    1px solid #ddd;
+}
+th,td {
+  border-bottom:  1px solid #ddd;
+  border-right:   1px solid #ddd;
+}
+
+/* Unordered lists */
+ul {
+	list-style: none;
+}
+
+ul li:before {
+	color: #666;
+	content: '» ';
+	/* content: '» \0000a0'; */
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+/* Default Classes
+ * --------------------------------------------------------------------- */
+p.quiet { color: #666; }
+.alt    { color: #666; }
+
+p.title {
+  color: #111;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  margin-bottom: 0.75em;
+}
+
+#header p.title { font-size: 1.6em; line-height: 1; margin-bottom: 0.5em; }
+
+
+/* EOF */
