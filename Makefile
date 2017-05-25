@@ -5,7 +5,8 @@ clean:
 
 # do the build
 build: clean
-	mkdir output
+	mkdir -p output/css
+	mkdir -p output/images
 	cp *.html output
 	cp css/*.css output/css
 	cp images/*.* output/images
