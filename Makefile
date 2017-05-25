@@ -5,7 +5,7 @@ clean:
 
 # do the build
 build: clean
-	npm install minifier
+	npm install -g minifier
 	mkdir output
 	minify css
 	cp -R images *.html output
