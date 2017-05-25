@@ -5,6 +5,7 @@ clean:
 
 # do the build
 build: clean
+	mkdir output
 	cp -R images css *.html output
 	@echo "Done..."
 
