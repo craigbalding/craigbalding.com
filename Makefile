@@ -5,8 +5,10 @@ clean:
 
 # do the build
 build: clean
+	npm install minifier
 	mkdir output
-	cp -R images css *.html output
+	minify css
+	cp -R images *.html output
 	@echo "Done..."
 
 
