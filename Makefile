@@ -5,11 +5,7 @@ clean:
 
 # do the build
 build: clean
-	mkdir -p output/css/blueprint
-	mkdir -p output/images
-	cp -R css output
-	cp images/*.* output/images
-	cp *.html output
+	cp -R images css *.html output
 	@echo "Done..."
 
 
