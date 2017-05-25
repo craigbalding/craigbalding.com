@@ -7,7 +7,7 @@ clean:
 build: clean
 	npm install -g minifier
 	mkdir output
-	minify css
+	minify --output output/css css
 	cp -R images *.html output
 	@echo "Done..."
 
